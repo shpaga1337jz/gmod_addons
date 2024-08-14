@@ -1,7 +1,6 @@
 /*
     BY SHPAGA
 */
-GalaxyShop = GalaxyShop or {}
 util.AddNetworkString( 'GalaxyShop_recode')
 
 net.Receive( 'GalaxyShop_recode', function( len, ply ) 
